@@ -154,6 +154,8 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
+Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)
+Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 Elo Agbawe Idiodi - [Github](https://github.com/Eloagbawe) / [Twitter](https://twitter.com/Typical_elo)  
 Farida Momoh - [Github](https://github.com/KimFarida) / [Twitter](https://twitter.com/Kim_Farida_)
 
