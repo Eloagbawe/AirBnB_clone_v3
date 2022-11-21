@@ -75,7 +75,7 @@ def add_place_amenity(place_id, amenity_id):
     storage_type = getenv("HBNB_TYPE_STORAGE")
     if storage_type == 'db':
         if amenity in place.amenities:
-            return make_response(jsonify(amenity.todict()), 200)
+            return make_response(jsonify(amenity.to_dict()), 200)
         else:
             place.amenities.append(amenity)
     else:
