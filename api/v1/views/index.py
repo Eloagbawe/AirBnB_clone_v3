@@ -23,7 +23,7 @@ def status():
 @app_views.route('/stats', methods=['GET'], strict_slashes=False)
 def stats():
     """GET /api/v1/stats"""
-    stats = jsonify({"amenites": storage.count(Amenity),
+    stats = jsonify({"amenities": storage.count(Amenity),
                      "cities": storage.count(City),
                      "places": storage.count(Place),
                      "reviews": storage.count(Review),
